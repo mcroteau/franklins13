@@ -1,0 +1,247 @@
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Franklins 13+</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<link rel="stylesheet" href="assets/css/lib/materialize.css">
+	<script type="text/javascript" src="assets/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/lib/materialize.js"></script>
+	
+	<style type="text/css">
+		.clear{
+			clear:both;
+		}
+		p{
+			font-weight:300;
+		}
+		.row{
+			margin: 0px 0px 0px 0px !important;
+		}
+		.col-bordered{
+			border-bottom:dashed 2px #ddd;
+		}
+		.btn-virtue{
+			font-size:1.1em;
+			height:41px;
+			line-height:40px;
+		}
+		nav{
+			bottom:0;
+			left:0;
+			right:0;
+			position:fixed;
+			z-index:1001;
+			text-align:center;
+			-webkit-box-shadow: 0px -4px 5px 0px rgba(235,235,235,0.40);
+			-moz-box-shadow: 0px -4px 5px 0px rgba(235,235,235,0.40);
+			box-shadow: 0px -4px 5px 0px rgba(235,235,235,0.40);
+		}
+		nav ul{
+			width:25%;
+			left:37% !important;
+			position:relative;
+			border:solid 1px #ddd;
+		}
+		#total-container{
+			top:-1px;
+			left:0px;
+			right:0px;
+			position:fixed;
+			text-align:center;
+			opacity:1.0 !important;
+			z-index:1001;
+			background:#fff;
+			border-bottom:solid 1px #efefef;
+			-webkit-box-shadow: 0px 4px 10px 0px rgba(235,235,235,0.40);
+			-moz-box-shadow: 0px 4px 10px 0px rgba(235,235,235,0.40);
+			box-shadow: 0px 4px 10px 0px rgba(235,235,235,0.40);
+		}
+		#total-container p{
+			font-size:0.8em !important;
+			font-weight:normal !important;
+		}
+		.container{
+			margin-top:53px;
+		}
+		.badge{
+			font-weight:600;
+		}
+		@media screen and (max-width: 700px) {
+			nav ul{
+				width:60%;
+				left:20% !important;
+				border:solid 1px #ddd !important;
+				text-align:center;
+			}
+		}
+		@media screen and (max-width: 600px) {
+		    .btn-virtue {
+				display:inline-block;
+		        margin-right:10px;
+		        margin-left:10px;
+		    }
+			nav ul{
+				width:60%;
+				left:20% !important;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+
+		<div id="total-container">
+			<p>Today <span class="badge" style="float:none;">9</span> points</p>
+		</div>
+		
+		<div class="row">
+			<div class="col s3"></div>
+			<div class="col s6 center-align">
+				<h4 class="center-align">Temperance</h4>
+				<p>Eat not to dullness; drink not to elevation.</p>			
+			</div>
+			<div class="col s3"></div>
+		</div>
+		<div class="row">
+			<div class="col s5">
+				<div class="right">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">-</a>
+				</div>
+				<br class="clear"/>
+			</div>
+			<div class="col s2">	
+				<input type="text" name="" value="1" class="center-align">
+			</div>
+			<div class="col s5">
+				<div class="left">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">+</a>
+				</div>
+				<br class="clear"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s3"></div>
+			<div class="col s6 col-bordered"></div>
+			<div class="col s3"></div>
+		</div>
+		
+			
+			
+		<div class="row row-top" style="margin-bottom:10px !important">
+			<div class="col s3"></div>
+			<div class="col s6 center-align" style="border:solid 0px #ddd">
+				<h4 class="center-align">Silence</h4>
+				<p>Speak not but what may benefit others or yourself; avoid trifling conversation.</p>			
+			</div>
+			<div class="col s3"></div>
+		</div>
+		<div class="row">
+			<div class="col s5">
+				<div class="right">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">-</a>
+				</div>
+				<br class="clear"/>
+			</div>
+			<div class="col s2">	
+				<input type="text" name="" value="6" class="center-align">
+			</div>
+			<div class="col s5">
+				<div class="left">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">+</a>
+				</div>
+				<br class="clear"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s3"></div>
+			<div class="col s6 col-bordered"></div>
+			<div class="col s3"></div>
+		</div>
+		
+		
+		
+		<div class="row row-top" style="margin-bottom:10px !important">
+			<div class="col s3"></div>
+			<div class="col s6 center-align" style="border:solid 0px #ddd">
+				<h4 class="center-align">Order</h4>
+				<p>Let all your things have their places; let each part of your business have its time.</p>			
+			</div>
+			<div class="col s3"></div>
+		</div>
+		<div class="row">
+			<div class="col s5">
+				<div class="right">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">-</a>
+				</div>
+				<br class="clear"/>
+			</div>
+			<div class="col s2">	
+				<input type="text" name="" value="2" class="center-align">
+			</div>
+			<div class="col s5">
+				<div class="left">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">+</a>
+				</div>
+				<br class="clear"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s3"></div>
+			<div class="col s6 col-bordered"></div>
+			<div class="col s3"></div>
+		</div>
+
+		
+		
+		
+		<div class="row row-top" style="margin-bottom:10px !important">
+			<div class="col s3"></div>
+			<div class="col s6 center-align" style="border:solid 0px #ddd">
+				<h4 class="center-align">Order</h4>
+				<p>Let all your things have their places; let each part of your business have its time.</p>			
+			</div>
+			<div class="col s3"></div>
+		</div>
+		<div class="row">
+			<div class="col s5">
+				<div class="right">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">-</a>
+				</div>
+				<br class="clear"/>
+			</div>
+			<div class="col s2">	
+				<input type="text" name="" value="2" class="center-align">
+			</div>
+			<div class="col s5">
+				<div class="left">
+					<a class="waves-effect waves-light btn btn-virtue light-blue darken-1">+</a>
+				</div>
+				<br class="clear"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s3"></div>
+			<div class="col s6 col-bordered"></div>
+			<div class="col s3"></div>
+		</div>
+		
+
+		<nav class="light-blue darken-4">
+			<div class="nav-wrapper">
+				<ul id="nav-mobile" class="">
+					<li><a href="#" class="waves-effect waves-light">Dashboard</a></li>
+					<li><a href="#" class="waves-effect waves-light">Today</a></li>
+					<li><a href="#" class="waves-effect waves-light">About</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+	</div>
+
+</body>
+
+</html>
